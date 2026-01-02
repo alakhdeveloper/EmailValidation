@@ -1,0 +1,15 @@
+{
+  "name": "diligentwebtech/module-emailvalidation",
+  "description": "Email validation and OTP verification for Magento checkout",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "DiligentWebTech\\EmailValidation\\": ""
+    }
+  }
+}
