@@ -1,0 +1,10 @@
+<!--@subject {{trans "Your OTP Code"}} @-->
+<!--@vars {
+"var otp":"OTP Code"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<p>{{trans "Your OTP code is: %otp" otp=$otp}}</p>
+
+{{template config_path="design/email/footer_template"}}
